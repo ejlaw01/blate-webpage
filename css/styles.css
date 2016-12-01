@@ -1,0 +1,92 @@
+body {
+  background-color: oldlace;
+  margin: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  width: auto;
+  display: block;
+  font-family: 'Playfair Display SC', serif !important;
+  font-size: 3em;
+  text-align: center;
+}
+
+h6 {
+  font-family: 'Raleway', sans-serif !important;
+  font-size: .8em;
+  position: relative;
+  top: 33px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+ul {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  list-style: none;
+}
+
+nav {
+  background-color: inherit;
+  border: none;
+  box-shadow: none;
+}
+
+nav li a {
+  text-align: center;
+  color: #855439 !important;
+  font-family: 'Raleway', sans-serif !important;
+}
+
+.row {
+  margin: 0;
+}
+
+.outline {
+  position: relative;
+  outline: 10px double #855439;
+  height: auto;
+  min-height: 95vh;
+}
+
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.header {
+  position: relative;
+  height: 200px;
+  width: 100%;
+}
+
+.logo {
+  display: block;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.gallery img {
+  width: 100%;
+  padding: 5%;
+}
+
+.footer {
+  padding: 10px;
+  text-align: center;
+}
+
+#productdeets {
+  margin: 20px;
+  padding: 10px;
+}
